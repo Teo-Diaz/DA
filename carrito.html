@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <button class="menu" ><i class='bx bx-menu'></i></button>
+        <h2>SHOES</h2>
+        <div class="opciones">
+            <select name="categorias" id="categorias">
+                <option value="Todo">Todo</option>
+                <option value="Todo">Deportivos</option>
+                <option value="Todo">Casuales</option>
+            </select>
+            <div class="buscar">
+                <input  type="text" placeholder="Busqueda">
+            </div>
+        </div>
+        <div class="opciones-usuario">
+            <a class="carrito" href="" >
+                <i class='bx bx-shopping-bag' ></i>
+                <span class="cantidad">0</span>
+            </a>
+            <div>
+                <button class="usuario">
+                    <i class='bx bx-user'></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Mi info</a>
+                    <a href="#">Config</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Cerrar sesion</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        <h3>CARRITO DE COMPRAS</h3>
+        <div class="contenido-carrito">
+
+
+        <div>
+            <div class="producto-carrito">
+                <img src="/producto1.png" alt="">
+                <div>
+                    <p>PRODUCTO 1</p>
+                    <p>$10.000</p>
+                    <p>CANTIDAD = 1</p>
+                </div>
+                <button>ELIMINAR</button>
+            </div>
+            <div class="producto-carrito">
+                <img src="/producto2.png" alt="">
+                <div>
+                    <p>PRODUCTO 2</p>
+                    <p>$20.000</p>
+                    <p>CANTIDAD = 2</p>
+                </div>
+                <button>ELIMINAR</button>
+            </div>
+        </div>
+
+        <div class="resumen">
+            <h4>Resumen</h4>
+            <div>
+                <p>Subtotal</p>
+                <p>$1.000.000</p>
+            </div>
+            <div>
+                <p>Impuestos</p>
+                <p>$0</p>
+            </div>
+            <div>
+                <p>Precio de envio</p>
+                <p>Gratis</p>
+            </div>
+            <button>CHECKOUT</button>
+        </div>
+    </div>
+
+       
+    </div>
+
+    <button class="btn-atras-carrito">REGERSAR</button>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
